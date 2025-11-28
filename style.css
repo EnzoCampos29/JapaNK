@@ -7,7 +7,7 @@ li{
     }
 }
 
-body    {
+body{
     background-image: url(img.menu.png);
     background-size: cover;
     background-position: center;
@@ -22,7 +22,6 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #c01504;
-    padding: 2px;
     ul{
         display: flex;
         gap: 3rem;
