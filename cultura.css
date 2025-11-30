@@ -1,0 +1,104 @@
+header{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #c01504; 
+    ul{ 
+        display: flex; 
+        gap: 3rem; 
+        list-style: none; 
+        padding-right: 10rem; 
+    }
+    li{ 
+        font-family: 'Belleza', sans-serif; 
+        padding-left: 30px; 
+        transition: 0.4s; 
+        a{ 
+            color: white; 
+            font-size: 1.5rem; 
+            text-decoration: none;
+         }
+        }
+    li:hover{ 
+        transform: scale(1.05); 
+    }
+    h1{
+    font-family: 'Archivo Black', serif;
+    padding-left: 4rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.4s;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    h1:hover{
+        transform: scale(1.05);
+    }
+}
+
+body{
+     margin: 0;
+     padding: 0; 
+     h2{ 
+        color: white; 
+        font-family: 'Archivo Black', sans-serif; 
+    } 
+    p{ 
+        color: white; 
+        font-family: 'Belleza', sans-serif; 
+    }
+}
+
+.pt1{
+    position: relative;
+    background-image: url(img-cultura1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt2{
+    position: relative;
+    background-image: url(img-cultura2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1.5rem;
+    cursor: default;
+}
+
+#vermelho{
+    background-color: #c01504;
+    margin: 7rem;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+#azul{
+    background-color: #2e2b53;
+    margin: 7rem;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 4rem;
+    margin-left: 43rem;
+    cursor: default;
+}

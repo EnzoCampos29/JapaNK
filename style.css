@@ -37,10 +37,17 @@ header{
 
 h1{
     font-family: 'Archivo Black', serif;
-    color: white;
     padding-left: 4rem;
     font-size: 3rem;
-    cursor: default;
+    cursor: pointer;
+    transition: 0.4s;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+h1:hover{
+    transform: scale(1.05);
 }
 
 div{
