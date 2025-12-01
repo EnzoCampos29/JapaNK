@@ -48,52 +48,37 @@ body{
     background-color: #cbcbcb;
 }
 
-section.intro{
+section{
     margin-top: 11rem;
+    margin-bottom: 8rem;
     text-align: center;
     h2{
-    font-family: 'Archivo Black', sans-serif;
-    padding: 0;
-    color: black;
-    font-size: 3rem;
-    cursor: default;
+        font-family: 'Archivo Black', sans-serif;
+        padding: 0;
+        margin-top: 2rem;
+        color: black;
+        font-size: 3rem;
+        cursor: default;
     }
-    img{
-        width: 55vh;
-        border-radius: 57px;
+    p{
+        font-family: 'Belleza', sans-serif;
+        font-size: 1.8rem;
+        color: black;
+        margin-top: 3rem;
     }
-}
-p{
-    font-family: 'Belleza', sans-serif;
-    background-color: #c01504;
-    color: white;
-    padding: 10px;
-    font-size: 1.5rem;
-    border-radius: 15px;
-    margin: 2rem 6rem;
-    cursor: default;
-}
-
-section.cont{
-    text-align: center;
-    list-style: none;
-    margin-bottom: 6rem;
-    margin-top: 2rem;
-    div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 8rem;
+    label{
+        font-family: 'Belleza', sans-serif;
+        font-size: 1.6rem;
+        color: black;
+        background-color: white;
+        padding: 8px;
+        border-radius: 10px;
+        input{
+            margin-bottom: 2rem;
+        }
     }
-}
-h3{
-    font-family: 'Archivo Black', sans-serif;
-    padding: 0;
-    color: black;
-    font-size: 2.5rem;
-    cursor: default;
-}
-img{
-    border-radius: 28px;
-    width: 70vh;
+    li{
+        list-style: inside;
+        font-size: 1.8rem;
+    }
 }
