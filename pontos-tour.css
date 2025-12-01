@@ -2,7 +2,11 @@ header{
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    background-color: #c01504; 
+    background-color: #c01504;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
     ul{ 
         display: flex; 
         gap: 3rem; 
@@ -80,4 +84,7 @@ section{
         max-width: 80%;
         border-radius: 20px;
     }
+}
+.primeiro img{
+    margin-top: 12rem;
 }
