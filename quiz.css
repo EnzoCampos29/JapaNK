@@ -73,6 +73,7 @@ section{
         background-color: white;
         padding: 8px;
         border-radius: 10px;
+        cursor: pointer;
         input{
             margin-bottom: 2rem;
         }
